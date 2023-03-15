@@ -2,4 +2,5 @@
 
 Тропинка:
 
-1. _To be continued..._
+1. [:gear: Установка](step-01.md)
+2. _To be continued..._
