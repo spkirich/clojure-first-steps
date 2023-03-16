@@ -71,7 +71,7 @@ user=>
 
 ``` clojure
 user=> (let [y 1900] (cond (= (mod y 400) 0) true (= (mod y 100) 0) false (= (mod y 4) 0) true :else false))
-"n"
+false
 user=>
 ```
 
@@ -83,13 +83,13 @@ user=>
 user=> (defn leap? [y] (cond (= (mod y 400) 0) true (= (mod y 100) 0) false (= (mod y 4) 0) true :else false))
 #'user/leap?
 user=> (leap? 2000)
-"y"
+true
 user=> (leap? 1900)
-"n"
+false
 user=> (leap? 2024)
-"y"
+true
 user=> (leap? 2023)
-"n"
+false
 user=>
 ```
 
