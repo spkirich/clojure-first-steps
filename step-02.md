@@ -70,7 +70,7 @@ user=>
 високосным:
 
 ``` clojure
-user=> (let [y 1900] (cond (= (mod y 400) 0) "y" (= (mod y 100) 0) "n" (= (mod y 4) 0) "y" :else "n"))
+user=> (let [y 1900] (cond (= (mod y 400) 0) true (= (mod y 100) 0) false (= (mod y 4) 0) true :else false))
 "n"
 user=>
 ```
@@ -80,7 +80,7 @@ user=>
 Определим функцию проверки года на високосность:
 
 ``` clojure
-user=> (defn leap? [y] (cond (= (mod y 400) 0) "y" (= (mod y 100) 0) "n" (= (mod y 4) 0) "y" :else "n"))
+user=> (defn leap? [y] (cond (= (mod y 400) 0) true (= (mod y 100) 0) false (= (mod y 4) 0) true :else false))
 #'user/leap?
 user=> (leap? 2000)
 "y"
