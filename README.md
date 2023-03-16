@@ -3,4 +3,5 @@
 Тропинка:
 
 1. [:gear: Установка](step-01.md)
-2. _To be continued..._
+2. [:keyboard: Интерактивная среда](step-02)
+3. _To be continued..._
