@@ -2,8 +2,11 @@
 
 Тропинка:
 
-1. [:gear: Установка](step-01.md)
-2. [:keyboard: Интерактивная среда](step-02.md)
-3. [:page_facing_up: Первая программа](step-03.md)
-4. [:coffee: Взаимодействие с Java](step-04.md)
-5. [:notebook: Примеры](step-05.md)
+1. [:earth_africa: Мотивация](motivation.md)
+2. [:gear: Установка](installation.md)
+3. [:keyboard: Интерактивная среда](environment.md)
+4. [:page_facing_up: Первая программа](first_program.md)
+5. [:mortar_board: Понимание синтаксиса](syntax_explain.md)
+6. [:coffee: Взаимодействие с Java](java_integration.md)
+7. [:notebook: Простые примеры](samples.md)
+8. [:wrench: Реальные примеры использования](use_cases.md)
