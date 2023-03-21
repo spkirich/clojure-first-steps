@@ -29,3 +29,7 @@ user=> (let [d (new java.util.Date "2002/04/13")] (. d toString))
 "Sat Apr 13 00:00:00 MSD 2002"
 user=>
 ```
+
+[Предыдущий шаг](syntax_explain.md)
+
+[Следующий шаг](samples.md)

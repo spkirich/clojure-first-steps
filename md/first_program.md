@@ -46,3 +46,7 @@ clojure -M leap.clj
 1900
 Не високосный.
 ```
+
+[Предыдущий шаг](environment.md)
+
+[Следующий шаг](syntax_explain.md)
