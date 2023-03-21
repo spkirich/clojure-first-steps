@@ -78,3 +78,7 @@ chmod +x linux-install-1.11.1.1252.sh
 ``` bash
 sudo ./linux-install-1.11.1.1252.sh
 ```
+
+[Предыдущий шаг](motivation.md)
+
+[Следующий шаг](environment.md)

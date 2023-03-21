@@ -50,3 +50,7 @@
     (if (list? (first lst)) (+ (rec-sum (first lst)) (rec-sum (rest lst)))
       (+ (first lst) (rec-sum (rest lst))))))
 ```
+
+[Предыдущий шаг](java_integration.md)
+
+[Следующий шаг](use_cases.md)
