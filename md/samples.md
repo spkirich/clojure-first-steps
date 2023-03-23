@@ -39,7 +39,7 @@
   (if (empty? lst) nil
     (if (< (min a b) (first lst) (max a b))
       (conj (select-between a b (rest lst)) (first lst))
-      (select-between a b (rest-lst)))))
+      (select-between a b (rest lst)))))
 ```
 
 ## Сумма всех чисел в многоуровневом списке
