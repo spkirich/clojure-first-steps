@@ -64,7 +64,7 @@ sudo apt install bash curl default-jdk rlwrap
 Затем скачать сам скрипт:
 
 ``` bash
-curl -O https://download.clojure.org/install/linux-install-1.11.1.1252.sh
+curl -LO https://download.clojure.org/install/linux-install-1.11.1.1252.sh
 ```
 
 Настроить права доступа к нему:
