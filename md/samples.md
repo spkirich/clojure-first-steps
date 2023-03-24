@@ -18,7 +18,7 @@
 ``` clojure
 (defn first-not-empty [lst]
   (if (empty? lst) nil
-    (if (and (list? (first lst)) (not (empty? (first lst)))) (first lst)
+    (if (and (list? (first lst)) (seq (first lst))) (first lst)
       (first-not-empty (rest lst)))))
 ```
 
