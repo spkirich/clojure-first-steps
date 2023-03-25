@@ -1,5 +1,7 @@
 # :money_with_wings: Введение в веб-разработку на ClojureScript
 
+**Все примеры описанные ниже можно найти в папке examples.**
+
 ## Введение
 
 ### ClojureScript
