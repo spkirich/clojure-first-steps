@@ -1,0 +1,1 @@
+web: java $JVM_OPTS -cp target/first-react.jar clojure.main -m first-react.server
